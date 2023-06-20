@@ -39,3 +39,8 @@ p,i{
       height: 800px !important;
     }
   } */
+  @media (max-height: 991px) {
+    .d-lg-none1 {
+        display: none;
+    }
+  }

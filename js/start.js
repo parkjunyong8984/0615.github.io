@@ -11,8 +11,16 @@ var swiper = new Swiper("#slide", {
     },
     loop: true,
     autoplay: {
-        delay: 1000,
+        delay: 3000,
       },
+      breakpoints: {
+        991: {
+            pagination: {
+                el: false,
+                clickable: true,
+              },
+        },
+    }
   });
   function adjustSlideHeight() {
     var windowHeight = window.innerHeight; // 현재 화면의 높이
