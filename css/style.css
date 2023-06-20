@@ -34,3 +34,8 @@ p,i{
     font-size: 60px;
     color: white;
 }
+/* @media (min-width: 991px) {
+    #slide.h-800 {
+      height: 800px !important;
+    }
+  } */

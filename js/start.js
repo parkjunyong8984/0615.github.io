@@ -9,6 +9,10 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
+    loop: true,
+    autoplay: {
+        delay: 1000,
+      },
   });
   function adjustSlideHeight() {
     var windowHeight = window.innerHeight; // 현재 화면의 높이
