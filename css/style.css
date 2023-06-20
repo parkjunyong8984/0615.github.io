@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+
+.slide1{
+    background-color: red;
+}
+.slide2{
+    background-color: blue;
+}
+.slide3{
+    background-color: yellow;
+}
+p,i{
+    font-size: 60px;
+    color: white;
+}
