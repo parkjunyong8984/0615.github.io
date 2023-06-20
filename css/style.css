@@ -39,7 +39,7 @@ p,i{
       height: 800px !important;
     }
   } */
-  @media (max-height: 991px) {
+  @media (max-width: 991px) {
     .d-lg-none1 {
         display: none;
     }
