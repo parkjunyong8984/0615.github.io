@@ -31,7 +31,7 @@ body {
     background-color: yellow;
 }
 p,i{
-    font-size: 60px;
+    font-size: 5vw;
     color: white;
 }
 /* @media (min-width: 991px) {
